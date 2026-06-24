@@ -13,6 +13,7 @@ import "./common/IFeeSettings.sol";
  * @notice The FeeSettings contract is used to manage fees paid to the tokenize.it platform.
  *      Fee types are registered dynamically, so new fee types can be added without a contract upgrade.
  */
+ 
 contract FeeSettings is
     Ownable2StepUpgradeable,
     ERC165Upgradeable,
